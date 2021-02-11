@@ -22,7 +22,6 @@ const wordSearch = (letters, word) => {
     return false;
   }
 };
-module.exports = wordSearch;
 
 const transpose = function(matrix) {
   let newMatrix = [];
@@ -40,3 +39,4 @@ const transpose = function(matrix) {
   }
   return newMatrix;
 };
+module.exports = wordSearch;
